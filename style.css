@@ -1,0 +1,372 @@
+.body {
+    width:1920px;
+    height:3781px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Montserrat', sans-serif;;
+    color: #FFFFFF;
+}
+
+.page-header {
+    width: 1920px;
+    Height: 950px;
+    margin:0;
+    padding:0;
+    background-image: url("img/rings.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.page-header a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.page-header a:hover {
+    color:burlywood;
+    transition: 0.1s lenear, color .1s linear;
+    
+    border:1px solid burlywood;
+}
+
+.main-nav {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin:0 auto;
+    padding:0;
+    width: 1110px;
+    height: 950px;
+}
+
+.diamond-1 {
+    position: absolute;
+    left:890px;
+    top:50px;
+    z-index: 1000;
+}
+
+.diamond-2 {
+    position: absolute;
+    left:1055px;
+    top:50px;
+    z-index: 1000;
+}
+
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    
+  
+    width: 1110px;
+    height: 52px;
+    /*margin:25px auto;*/
+    padding:0;
+    margin-top:25px;
+    
+}
+
+.title-list {
+    display: flex;
+    justify-content: space-between;
+    
+    padding:0;
+    flex-grow: 1;
+}
+
+
+.title-list li {
+    list-style-type: none;
+}
+
+.logo-title {
+    margin-left:126px;
+    margin-right: 102px;
+    
+    
+    
+}
+
+.title-contact {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 52px;
+flex-grow: 1;
+
+}
+
+.look {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    
+    padding: 0;  
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+   width:52px; 
+}
+
+.page-text {
+    display: flex;
+    Width:730px;
+    Height:49px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 49.03px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    color: #FFFFFF;
+    
+    margin-top:515px;  
+}
+
+.catalog-item {
+    margin-top:50px;  
+}
+
+
+.catalog-item .btn {
+    display: flex;
+  width: 261px;
+  height:51px;
+  color: #FFFFFF;
+  background-color: #333333;
+  text-decoration: none;
+ justify-content: center;
+ border: 1px solid white;  
+  align-content: center;
+  align-items: center;
+  font-size:18px;
+  font-weight: 500;
+  
+}
+
+.catalog-item .btn:hover {
+    color:burlywood;
+    transition: 0.1s lenear, color .1s linear;
+    
+    border:1px solid burlywood;
+  }
+  
+  .catalog-item .btn:active {
+    color: rgba(141, 116, 90, 0.3);
+  }
+
+.certa {
+    width: 1920px;
+    border:1px solid #FFFFFF;
+    margin-top:80px;  
+}
+
+.header-bottom {
+    height: 60px;
+    margin-top:30px; 
+    margin-bottom: 30px;
+    /*border: 1px solid white;  */
+}
+
+.header-bottom img {
+    border-right:1px solid #FFFFFF;
+}
+
+
+
+
+.header-bottom img:last-child {
+    border-right: none;
+}
+/* павность кнопок: transition: background 0.1s lenear, color .1s linear*/
+/**/
+/*'Noto Serif', serif;*/
+
+.catalog-page {
+    width: 1920px;
+    height: 1071px;
+    margin:0;
+    padding:0;
+    background-color: #F9F9F9;
+}
+
+.conteiner-catolog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    height: 851px;
+    position:relative;
+    top:100px;
+    left:405px;
+    
+}
+
+.catalig-text {
+    width: 350px;
+    height: 29px;
+   font-size: 21px;
+   line-height: 29.4px;
+   font-style: normal;
+   text-align: center;
+   color: #333333;
+}
+
+.beauty h2 {
+    width: 540px;
+    height: 41px;
+   font-size: 30px;
+   font-family: 'Noto Serif', serif;;
+   line-height: 40.86px;
+   font-style: normal;
+   text-align: center;
+   color: #333333;
+   margin-top: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.button .catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+  align-items: center;
+  width: 165px;
+  height:55px;
+  border:1px solid #D6D6D6;
+}
+
+.button .catalog:hover {
+    width: 165px;
+    height:61px;
+    color:#FFFFFF;
+    transition: 0.1s lenear, color .1s linear;
+    background-color: #333333;
+    text-decoration: none;
+    justify-content: center;
+    box-shadow: none;
+     
+      }
+
+.button .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+  height:55px;
+  color: black;
+  background-color: #F9F9F9;
+  text-decoration: none;
+ border: 1px solid #D6D6D6;  
+  font-size:18px;
+  font-weight: 500;
+  box-shadow: 5px 5px 0 0 #D6D6D6;
+  
+  
+}
+
+.button .btn:hover {
+width: 165px;
+height:61px;
+color:#FFFFFF;
+transition: 0.1s lenear, color .1s linear;
+background-color: #333333;
+text-decoration: none;
+justify-content: center;
+box-shadow: none;
+ 
+  }
+  
+  .button .btn:active {
+    color: rgba(141, 116, 90, 0.3);
+  }
+
+.catalog-images {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    height: 590px;
+    margin-top: 55px;
+}
+
+.catalog-images .picture {
+    display: flex;
+    flex-wrap:wrap;
+    width: 350px;
+    height: 280px;
+    
+}
+
+.catalog-images .snake {
+    background-image: url("img/snake.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images .blond {
+    background-image: url("img/blond.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images .silver-ring {
+    background-image: url("img/silver-ring.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images .black-ring {
+    background-image: url("img/black-ring.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images .face {
+    background-image: url("img/face.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images .ring-heart {
+    background-image: url("img/ring-heart.png");
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.catalog-images a {
+    display: flex;
+    margin-top: 222px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color:white;
+    
+}
+
+.catalog-images a:hover {
+    color:tomato;
+}
