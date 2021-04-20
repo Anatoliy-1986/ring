@@ -225,7 +225,7 @@ flex-grow: 1;
     width: 540px;
     height: 41px;
    font-size: 30px;
-   font-family: 'Noto Serif', serif;;
+   font-family: 'Noto Serif', serif;
    line-height: 40.86px;
    font-style: normal;
    text-align: center;
@@ -369,4 +369,109 @@ box-shadow: none;
 
 .catalog-images a:hover {
     color:tomato;
+}
+
+/*.third-floor*/
+.third-floor {
+    width: 1920px;;
+    height: 541px;
+    margin:0;
+    padding:0;
+    background-color: #333333;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 730px;
+    height: 341px;
+    position:relative;
+    top:100px;
+    left:595px;
+    padding:0;
+    background-color: #333333;
+}
+
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 29px;
+    font-size: 21px;
+    line-height: 29.4px;
+    font-weight: 400;
+    color:white; 
+}
+
+.moscow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 41px;
+    margin-top:15px;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    line-height: 40.86px;
+    font-weight: 700;
+    color:white;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 730px;
+    height: 100px;
+    margin-top:45px;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 400;
+    color:white;   
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 224px;
+    height: 51px;
+    margin-top:60px;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white; 
+}
+
+.adress .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+  height:51px;
+  color: black;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
+.adress .btn:hover {
+width: 224px;
+height:51px;
+color:#FFFFFF;
+transition: 0.1s lenear, color .1s linear;
+background-color:tomato;
+text-decoration: none;
+justify-content: center;
+}
+  
+.adress .btn:active {
+    color: rgba(141, 116, 90, 0.3);
 }
