@@ -475,3 +475,183 @@ justify-content: center;
 .adress .btn:active {
     color: rgba(141, 116, 90, 0.3);
 }
+
+/*fourth-floor*/
+
+.fourth-floor {
+    width: 1920px;
+    height: 1761px;
+    background-color: white;
+}
+
+.fourth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1110px;
+    height: 1491px;
+    position:relative;
+    top:120px;
+    left:405px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29.4px;
+}
+
+.recommendations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 1110px;
+    height: 41px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40.86px;
+}
+
+.article-items {
+    display: flex;
+    margin-top: 60px;
+    width: 1110px;
+    height: 370px;
+    justify-content: space-between; 
+}
+
+
+
+.article-items .items {
+
+    width: 350px;
+    height: 370px; 
+}
+
+.items a {
+    display: flex;
+    margin-top: 248px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29.4px;
+    color: white;
+    text-decoration: none; 
+}
+
+.items a:hover {
+    color:black;
+    transition: 0.1s lenear, color .1s linear;
+    text-decoration: none;
+    justify-content: center;
+    }
+      
+.items a:active {
+        color: rgba(141, 116, 90, 0.3);
+    }
+
+.article-items .woman-hand:first-child {
+    background-image: url("img/woman-hand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-items .crown:nth-child(2) {
+    background-image: url("img/crown.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-items .mobil:last-child {
+    background-image: url("img/mobil.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 255px;
+    height:51px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.19px;
+    color: white;
+    background-color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.blog .btn:hover {
+color:black;
+transition: 0.1s lenear, color .1s linear;
+background-color:tomato;
+}
+  
+.blog .btn:active {
+    color: rgba(141, 116, 90, 0.3);
+}
+
+.hashtag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    width: 350px;
+    height: 29px;
+}
+
+.hashtag a {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29.4px;
+    color: black;
+    text-decoration: none;
+}
+
+.hashtag a:hover {
+    color:blueviolet;
+    transition: 0.1s lenear, color .1s linear;
+    }
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 1110px;
+    height: 41px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40.86px;
+}
+
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    margin-top: 60px;
+    width: 1110px;
+    height: 600px;
+}
+
+.collage div {
+    display: flex;
+    align-content:center;
+}
