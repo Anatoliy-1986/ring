@@ -592,7 +592,7 @@ justify-content: center;
     font-size: 18px;
     line-height: 21.19px;
     color: white;
-    background-color:black;
+    background-color:#333333;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -660,7 +660,7 @@ background-color:tomato;
 .fifth-floor {
     width: 1920px;
     height: 478px;
-    background-color: black;
+    background-color: #333333;
 }
 
 .fifth-container {
@@ -716,7 +716,6 @@ background-color:tomato;
     width: 245px;
     height: 115px;
     margin-left: 150px;
-    border:1px solid white;
 }
 
 .personal a {
@@ -763,7 +762,7 @@ background-color:tomato;
     width: 159px;
     height: 45px;
     
-    background: black;
+    background: #333333;
 }
 
 .but a {
@@ -779,3 +778,57 @@ background-color:tomato;
     transition: 0.1s lenear, color .1s linear;
     background-color:tomato;
 }
+
+/*footer*/
+.footer {
+    width: 1920px;
+    height: 395px;
+    background-color: #E5E5E5;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+    height: 395px;
+    position: relative;
+    left:405px;
+    border:1px solid black;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 254px;
+    margin-top: 80px;
+    border:1px solid black;
+    
+}
+
+.table-content {
+    width: 255px;
+    height: 194px;
+    border:1px solid black;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 500;
+    width: 255px;
+    height: 25px;
+    text-transform: uppercase;
+    border:1px solid black;
+}
+
+.link:after {
+    content:"";
+    display:block;
+    max-width:255px;
+    height:1px;
+   
+    background-color:#333333;
+  }
