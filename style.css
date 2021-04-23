@@ -673,7 +673,6 @@ background-color:tomato;
     position: relative;
     top:100px;
     left:405px;
-    border:1px solid white;
 }
 
 
@@ -687,7 +686,6 @@ background-color:tomato;
     font-size: 21px;
     line-height: 29.4px;
     color: white;
-    border:1px solid white;
 }
 
 .mailing {
@@ -702,15 +700,13 @@ background-color:tomato;
     font-size: 30px;
     line-height: 40.86px;
     color: white;
-    border:1px solid white;
 }
 
 .application {
     display: flex;
-
+    margin-top:60px;
     width: 1110px;
     height: 113px;
-    border:1px solid white;
 }
 
 .personal {
@@ -719,10 +715,14 @@ background-color:tomato;
     justify-content: space-around;
     width: 245px;
     height: 115px;
+    margin-left: 150px;
     border:1px solid white;
 }
 
 .personal a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
     color: white;
     text-decoration: none;
 
@@ -734,6 +734,7 @@ background-color:tomato;
     align-items: center;
     width: 448px;
     height: 113px;
+    margin-left: 80px;
     border:1px solid white;
 }
 
@@ -746,9 +747,9 @@ background-color:tomato;
     background-color: #FFFFFF; 
 }
 
-.text-area {
+/*.text-area {
     border:1px solid white;
-}
+}*/
 
 .text-area input{
     width: 200px;
@@ -756,6 +757,9 @@ background-color:tomato;
 }
 
 .but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 159px;
     height: 45px;
     
@@ -763,6 +767,15 @@ background-color:tomato;
 }
 
 .but a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.48px;
     color: white; 
-text-decoration: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.but:hover {
+    transition: 0.1s lenear, color .1s linear;
+    background-color:tomato;
 }
