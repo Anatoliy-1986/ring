@@ -492,6 +492,7 @@ justify-content: center;
     width: 1110px;
     height: 1491px;
     position:relative;
+    color: #333333;
     top:120px;
     left:405px;
 }
@@ -795,7 +796,6 @@ background-color:tomato;
     height: 395px;
     position: relative;
     left:405px;
-    border:1px solid black;
 }
 
 .information {
@@ -804,14 +804,23 @@ background-color:tomato;
     width: 1140px;
     height: 254px;
     margin-top: 80px;
-    border:1px solid black;
+    border-bottom:1px solid #333333;
     
 }
 
 .table-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 255px;
     height: 194px;
-    border:1px solid black;
+    color: #333333;
+    
+}
+
+.table-content a {
+    color: #333333;
+    text-decoration: none;
 }
 
 .link {
@@ -821,7 +830,6 @@ background-color:tomato;
     width: 255px;
     height: 25px;
     text-transform: uppercase;
-    border:1px solid black;
 }
 
 .link:after {
@@ -829,6 +837,22 @@ background-color:tomato;
     display:block;
     max-width:255px;
     height:1px;
-   
     background-color:#333333;
   }
+
+  .icons {
+      display: flex;
+      justify-content: space-between;
+      width: 198.36px;
+  }
+
+.foot-down {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    color: #333333;
+}
+
+
+
+  
